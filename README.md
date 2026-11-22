@@ -137,7 +137,3 @@ Service web Python : build `pip install -r requirements.txt`, start `uvicorn app
 ## Sécurité (déjà en place)
 
 Mots de passe hachés avec scrypt, sessions aléatoires stockées sous forme de hachage, cookie `HttpOnly` + `SameSite=Lax` (+ `Secure` en HTTPS), limitation des tentatives de connexion, vérification de l'origine des WebSockets, en-têtes CSP, aucune réponse envoyée aux candidats avant la révélation, aucun HTML injecté (tout le texte passe par `createTextNode`).
-
-## Nom et marque
-
-« Logik Arena » est un nom neutre. Si tu mets le site en ligne publiquement, évite le nom, le logo et les visuels de l'émission télévisée qui a inspiré le principe.
