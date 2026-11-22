@@ -15,7 +15,7 @@ Stack : Python (FastAPI + WebSockets), SQLite, front-end en JavaScript pur (aucu
 - Une réponse peut être changée jusqu'à la fin du temps. Après la fin du temps, le serveur refuse les réponses.
 - Fin de partie : l'animateur peut rejouer avec les mêmes questions ou fermer la salle.
 
-## Lancer en local (Fedora)
+## Lancer en local
 
 ```bash
 cd logik-arena
